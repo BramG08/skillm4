@@ -1,0 +1,64 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+background-color: lightcyan;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+    padding: 18rem;
+    justify-items: center;
+    align-items: center;
+
+
+}
+
+
+.card{
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color: white;
+    width: 30rem;
+    height: 40rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 2rem rgba(0,0,0,0.2);
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.button{
+    background-color: lightblue;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.card.card__blue-tshirt{
+
+}
+.card.card__white-tshirt{
+ 
+}
+.card.card__black-tshirt{
+ 
+}
+
