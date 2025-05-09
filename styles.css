@@ -30,12 +30,15 @@ background-color: lightcyan;
     grid-template-rows: 1fr;
     background-color: white;
     width: 30rem;
-    height: 40rem;
+    min-height: 40rem;
     background-color: #fff;
     border-radius: 1.5rem;
     box-shadow: 0 0 2rem rgba(0,0,0,0.2);
     align-items: center;
     justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+    font-weight: bold;
 
 
 }
@@ -48,17 +51,9 @@ background-color: lightcyan;
     border-radius: 0.5rem;
     cursor: pointer;
     font-size: 1.6rem;
-    margin-top: 2rem;
+    margin: 2rem;
     text-align: center;
+    font-weight: bolder;
 }
 
-.card.card__blue-tshirt{
-
-}
-.card.card__white-tshirt{
- 
-}
-.card.card__black-tshirt{
- 
-}
 
